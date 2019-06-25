@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 430 281" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-735,-210)">
+        <g id="Logo">
+            <g transform="matrix(1,0,0,1,500.488,0)">
+                <g transform="matrix(12.0396,0,0,12.0396,-2645.39,-2435.26)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">J</text>
+                </g>
+                <g transform="matrix(12.0396,0,0,12.0396,-2565.37,-2435.26)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">U</text>
+                </g>
+                <g transform="matrix(12.0396,0,0,12.0396,-2563.95,-2335.29)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">R</text>
+                </g>
+                <g transform="matrix(12.0396,0,0,12.0396,-2443.59,-2335.29)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">I</text>
+                </g>
+                <g transform="matrix(12.0396,0,0,12.0396,-2668.99,-2235.29)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">K</text>
+                </g>
+                <g transform="matrix(12.0396,0,0,12.0396,-2564.53,-2235.26)">
+                    <text x="246.771px" y="226.36px" style="font-family:'FuturaPT-ExtraBold', 'Futura PT', sans-serif;font-weight:800;font-size:9.967px;">A</text>
+                </g>
+            </g>
+            <path d="M735,210L765,210L765,334.98L865,334.98L865,364.98L765,364.98L765,490L735,490L735,210Z"/>
+            <path d="M1165,490L1150,490L1035,490L1035,460L1135,460L1135,240L1035,240L1035,210L1165,210L1165,490Z"/>
+        </g>
+    </g>
+</svg>
