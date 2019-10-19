@@ -1,0 +1,42 @@
+@import "abstracts/variables";
+@import "abstracts/spacers";
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./hamburgers/hamburgers.scss";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.text-muted {
+	color: $text-secondary-color;
+	font-size: 0.8rem;
+}
+
+.mat-white {
+	background: white;
+}
+
+.mat-form-field {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+
+	.actions {
+		button {
+			visibility: hidden;
+			float: right;
+		}
+	}
+
+	tr:hover {
+		background-color: $row-highlight;
+
+		.actions {
+			button {
+				visibility: visible;
+			}
+		}
+	}
+}
