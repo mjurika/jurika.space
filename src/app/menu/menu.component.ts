@@ -14,7 +14,7 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
   }
 
-  onClick(e: Event): void {
+  onClick(): void {
     this.isOpen = !this.isOpen;
   }
 }
