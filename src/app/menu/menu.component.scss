@@ -1,0 +1,81 @@
+@import "abstracts/variables";
+
+nav {
+	padding: 10px 32px;
+	height: 86px;
+
+	img {
+		height: 50px;
+	}
+
+	.hamburger {
+		position: relative;
+		z-index: 20;
+
+		&.is-active {
+			.hamburger-inner {
+				background: white;
+
+				&:after,
+				&:before {
+					background: white;
+				}
+			}
+		}
+
+		.hamburger-inner {
+			background: $gradient;
+
+			&:after,
+			&:before {
+				background: $gradient;
+			}
+		}
+	}
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 100vh;
+	width: 100vw;
+	border-bottom-right-radius: 100%;
+	background: $gradient;
+	transform: scale(0);
+	transform-origin: top left;
+	transition: $transition;
+
+	.container {
+		display: flex;
+		height: 100vh;
+		align-items: center;
+		justify-content: space-between;
+
+		a {
+			transition: $transition;
+			opacity: 0;
+			font-size: 2rem;
+			font-weight: bold;
+			color: white;
+		}
+	}
+
+	&.is-active {
+		transform: scale(1);
+		border-bottom-right-radius: 0;
+
+		.container {
+			a {
+				opacity: 1;
+
+				&:hover,
+				&:focus {
+					opacity: 0.6;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

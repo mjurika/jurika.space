@@ -1,0 +1,38 @@
+@import "abstracts/variables";
+
+.hero {
+	height: calc(100vh - 86px);
+
+	.header {
+		height: calc(100% - 100px);
+	}
+
+	.avatar-border {
+		height: 240px;
+		width: 240px;
+		border-radius: 50%;
+		background: $gradient;
+	}
+
+	.avatar {
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		background: #eee;
+
+		img {
+			height: 100%;
+			border-radius: 50%;
+		}
+	}
+
+	.technologies {
+		height: 100px;
+		background: $gradient;
+		color: white;
+
+		.container {
+			height: 100%;
+		}
+	}
+}

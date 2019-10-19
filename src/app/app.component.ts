@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'jurika';
-  isOpen = false;
 
-  onClick(e: Event): void {
-    this.isOpen = !this.isOpen;
-  }
 }

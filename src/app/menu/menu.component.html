@@ -1,0 +1,18 @@
+<nav class="d-flex justify-content-between align-items-center">
+    <button class="hamburger hamburger--collapse" [ngClass]="isOpen ? 'is-active' : ''" (click)="onClick()"
+        type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <img src="assets/logo.svg" alt="Matúš Jurika">
+    <button mat-raised-button>Kontaktovať</button>
+</nav>
+
+<div class="menu" [ngClass]="isOpen ? 'is-active' : ''">
+    <div class="container">
+        <a>O mne</a>
+        <a>Projekty</a>
+        <a>Kontakt</a>
+    </div>
+</div>
