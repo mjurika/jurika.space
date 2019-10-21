@@ -5,6 +5,11 @@
 
 	.header {
 		height: calc(100% - 100px);
+		flex-wrap: wrap;
+
+		> * {
+			padding: 16px 32px;
+		}
 	}
 
 	.avatar-border {

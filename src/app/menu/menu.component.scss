@@ -52,8 +52,10 @@ nav {
 		height: 100vh;
 		align-items: center;
 		justify-content: space-between;
+		flex-wrap: wrap;
 
 		a {
+			padding: 4px 8px;
 			transition: $transition;
 			opacity: 0;
 			font-size: 2rem;
