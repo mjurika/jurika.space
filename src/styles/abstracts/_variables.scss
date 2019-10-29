@@ -1,3 +1,5 @@
-$gradient: linear-gradient(to right, #20bf55, #0167ef);
+$green: #20bf55;
+$blue: #0167ef;
+$gradient: linear-gradient(to right, $green, $blue);
 
 $transition: all 0.4s ease-in-out;

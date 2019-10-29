@@ -2,34 +2,55 @@
 
 .hero {
 	height: calc(100vh - 86px);
+	display: flex;
+	flex-direction: column;
 
-	.header {
-		height: calc(100% - 100px);
-	}
+	.head {
+		padding: 40px 0;
+		height: calc(100% - 200px);
 
-	.avatar-border {
-		height: 240px;
-		width: 240px;
-		border-radius: 50%;
-		background: $gradient;
-	}
+		.avatar {
+			flex: 1;
+			display: flex;
+			justify-content: center;
 
-	.avatar {
-		height: 200px;
-		width: 200px;
-		border-radius: 50%;
-		background: #eee;
+			.avatar-border {
+				height: 20vmax;
+				width: 20vmax;
+				border-radius: 50%;
+				background: $gradient;
 
-		img {
-			height: 100%;
-			border-radius: 50%;
+				img {
+					height: 80%;
+					width: auto;
+					border-radius: 50%;
+					background: #eee;
+				}
+			}
+		}
+
+		article {
+			flex: 1;
+
+			h1 {
+				font-size: 3vmin;
+			}
+			h2 {
+				font-size: 4.5vmin;
+			}
 		}
 	}
 
+	.projects {
+		min-height: 100px;
+	}
+
 	.technologies {
-		height: 100px;
+		grid-area: technologies;
 		background: $gradient;
 		color: white;
+		min-height: 100px;
+		font-size: 2em;
 
 		.container {
 			height: 100%;

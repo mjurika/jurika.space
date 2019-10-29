@@ -5,12 +5,13 @@ nav {
 	height: 86px;
 
 	img {
-		height: 50px;
+		height: 40px;
 	}
 
 	.hamburger {
 		position: relative;
 		z-index: 20;
+		padding: 0 !important;
 
 		&.is-active {
 			.hamburger-inner {
@@ -49,9 +50,12 @@ nav {
 
 	.container {
 		display: flex;
+		flex-wrap: wrap;
 		height: 100vh;
 		align-items: center;
 		justify-content: space-between;
+		padding-top: 86px;
+		padding-bottom: 86px;
 
 		a {
 			transition: $transition;
@@ -59,6 +63,7 @@ nav {
 			font-size: 2rem;
 			font-weight: bold;
 			color: white;
+			padding: 0 20px;
 		}
 	}
 
@@ -77,5 +82,11 @@ nav {
 				}
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	img {
+		display: none;
 	}
 }

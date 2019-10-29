@@ -11,10 +11,27 @@ body {
 body {
 	margin: 0;
 	font-family: Roboto, "Helvetica Neue", sans-serif;
+
+	.mat-raised-button {
+		background: $gradient;
+		text-transform: uppercase;
+		color: white;
+		line-height: 40px;
+		padding: 0 20px;
+		border-radius: 20px;
+		box-shadow: 0 10px 20px rgba(0, 40, 94, 0.3), 0 6px 6px rgba(32, 191, 85, 0.25) !important;
+		transition: all 0.5s ease;
+
+		&:hover,
+		&:focus {
+			transform: translateY(-3px);
+			box-shadow: 0 20px 40px rgba(0, 40, 94, 0.3), 0 12px 12px rgba(32, 191, 85, 0.25) !important;
+		}
+	}
 }
 
-.mat-raised-button {
-	background: $gradient;
-	text-transform: uppercase;
-	color: white;
+.cc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
