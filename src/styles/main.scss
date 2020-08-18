@@ -1,8 +1,8 @@
-@import "abstracts/variables";
-@import "abstracts/spacers";
+@import 'abstracts/variables';
+@import 'abstracts/spacers';
 
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import "./hamburgers/hamburgers.scss";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import './hamburgers/hamburgers.scss';
 
 html,
 body {
@@ -10,7 +10,7 @@ body {
 }
 body {
 	margin: 0;
-	font-family: Roboto, "Helvetica Neue", sans-serif;
+	font-family: Roboto, 'Helvetica Neue', sans-serif;
 
 	.mat-raised-button {
 		background: $gradient;
