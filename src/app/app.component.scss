@@ -1,9 +1,12 @@
 @import 'abstracts/variables';
 
 .line {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	height: 6px;
 	width: 100%;
 	background: $gradient;
+}
+main {
+	padding-top: 86px;
 }

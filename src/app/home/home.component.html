@@ -8,8 +8,8 @@
         <article>
             <h1>Matúš Jurika</h1>
             <h2>Web Developer s citom pre UX</h2>
-            <a mat-stroked-button href="http://m.me/matus.jurika" target="_blank" class="mb-3 mr-2">Životopis</a>
-            <a mat-raised-button href="http://m.me/matus.jurika" target="_blank">Kontakt</a>
+            <a mat-stroked-button href="assets/jurika_cv_sk.pdf" target="_blank" class="mb-3 mr-2">Životopis</a>
+            <a mat-raised-button [routerLink]="['contact']">Kontakt</a>
         </article>
     </div>
     <div class="projects cc">
@@ -24,3 +24,6 @@
         </div>
     </div>
 </section>
+
+<app-about></app-about>
+<app-projects></app-projects>

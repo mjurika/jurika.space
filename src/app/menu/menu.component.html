@@ -8,9 +8,9 @@
 </nav>
 
 <div class="menu" [ngClass]="isOpen ? 'is-active' : ''">
-    <div class="container">
-        <a>O mne</a>
-        <a>Projekty</a>
-        <a href="http://m.me/matus.jurika" target="_blank">Kontakt</a>
+    <div class="container" (click)="onClick()">
+        <a [routerLink]="['']" fragment="about">O mne</a>
+        <a [routerLink]="['']" fragment="projects">Projekty</a>
+        <a [routerLink]="['contact']">Kontakt</a>
     </div>
 </div>
