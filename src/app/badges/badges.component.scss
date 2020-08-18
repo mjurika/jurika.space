@@ -1,0 +1,13 @@
+.badges {
+	display: flex;
+	flex-wrap: wrap;
+
+	.badge {
+		margin-right: 0.5rem;
+		font-size: 0.8rem;
+		border-radius: 1rem;
+		padding: 0 0.5rem;
+		background-color: #242f34;
+		color: white;
+	}
+}

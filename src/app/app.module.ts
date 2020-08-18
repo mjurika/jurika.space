@@ -11,9 +11,20 @@ import { MaterialModule } from './material.module';
 import { MenuComponent } from './menu/menu.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CtaComponent } from './cta/cta.component';
+import { BadgesComponent } from './badges/badges.component';
 
 @NgModule({
-	declarations: [AppComponent, MenuComponent, HomeComponent, ProjectsComponent, FooterComponent, ContactComponent, AboutComponent, CtaComponent],
+	declarations: [
+		AppComponent,
+		MenuComponent,
+		HomeComponent,
+		ProjectsComponent,
+		FooterComponent,
+		ContactComponent,
+		AboutComponent,
+		CtaComponent,
+		BadgesComponent
+	],
 	imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MaterialModule],
 	providers: [],
 	bootstrap: [AppComponent]
