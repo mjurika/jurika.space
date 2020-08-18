@@ -1,0 +1,25 @@
+@import 'abstracts/mixins';
+
+.footer {
+	background-color: #242f34;
+	color: white;
+
+	a {
+		display: inline-block;
+		color: white;
+		text-decoration: none;
+		padding: 0 1rem;
+
+		i {
+			font-size: 1.4rem;
+		}
+
+		&:hover {
+			@include gradient-font;
+		}
+	}
+
+	.small {
+		font-size: 0.8rem;
+	}
+}

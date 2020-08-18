@@ -1,0 +1,14 @@
+@import 'abstracts/variables';
+
+section {
+	background: $gradient;
+	min-height: 100px;
+	flex-direction: column;
+
+	h3 {
+		margin-top: 0;
+		color: white;
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+}

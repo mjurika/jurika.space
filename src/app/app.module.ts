@@ -10,9 +10,10 @@ import { HomeComponent } from './home/home.component';
 import { MaterialModule } from './material.module';
 import { MenuComponent } from './menu/menu.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { CtaComponent } from './cta/cta.component';
 
 @NgModule({
-	declarations: [AppComponent, MenuComponent, HomeComponent, ProjectsComponent, FooterComponent, ContactComponent, AboutComponent],
+	declarations: [AppComponent, MenuComponent, HomeComponent, ProjectsComponent, FooterComponent, ContactComponent, AboutComponent, CtaComponent],
 	imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MaterialModule],
 	providers: [],
 	bootstrap: [AppComponent]

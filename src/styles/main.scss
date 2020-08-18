@@ -1,5 +1,6 @@
 @import 'abstracts/variables';
 @import 'abstracts/spacers';
+@import 'abstracts/mixins';
 
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import './hamburgers/hamburgers.scss';
@@ -27,13 +28,11 @@ body {
 		}
 
 		&.mat-stroked-button {
+			background: white;
 			line-height: 38px;
 
 			.mat-button-wrapper {
-				background: $gradient;
-				-webkit-background-clip: text;
-				background-clip: text;
-				-webkit-text-fill-color: transparent;
+				@include gradient-font;
 			}
 		}
 
@@ -43,10 +42,24 @@ body {
 			box-shadow: 0 20px 40px rgba(0, 40, 94, 0.3), 0 12px 12px rgba(32, 191, 85, 0.25) !important;
 		}
 	}
+
+	.link {
+		display: inline-block;
+		color: $blue;
+		text-decoration: none;
+
+		&:hover {
+			@include gradient-font;
+		}
+	}
+}
+
+h1 {
+	font-size: 40px;
 }
 
 h2 {
-	font-size: 4vmin;
+	font-size: 32px;
 }
 
 .cc {
