@@ -1,8 +1,11 @@
-@import "abstracts/variables";
+@import 'abstracts/variables';
 
 nav {
 	padding: 10px 32px;
 	height: 86px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 
 	img {
 		height: 40px;
@@ -36,7 +39,7 @@ nav {
 }
 
 .menu {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
@@ -60,6 +63,7 @@ nav {
 		a {
 			padding: 4px 8px;
 			transition: $transition;
+			text-decoration: none;
 			opacity: 0;
 			font-size: 2rem;
 			font-weight: bold;

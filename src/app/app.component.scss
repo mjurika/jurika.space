@@ -1,0 +1,19 @@
+@import 'abstracts/variables';
+
+.line {
+	position: fixed;
+	top: 0;
+	height: 6px;
+	width: 100%;
+	background: $gradient;
+}
+
+:host {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+
+	main {
+		flex: 1;
+	}
+}

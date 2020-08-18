@@ -1,7 +1,8 @@
-@import "abstracts/variables";
+@import 'abstracts/variables';
 
 .hero {
-	height: calc(100vh - 86px);
+	height: 100vh;
+	padding-top: 86px;
 	display: flex;
 	flex-direction: column;
 
@@ -17,6 +18,8 @@
 			.avatar-border {
 				height: 20vmax;
 				width: 20vmax;
+				max-width: 280px;
+				max-height: 280px;
 				border-radius: 50%;
 				background: $gradient;
 
@@ -34,6 +37,7 @@
 
 			h1 {
 				font-size: 3vmin;
+				font-weight: 500;
 			}
 			h2 {
 				font-size: 4.5vmin;

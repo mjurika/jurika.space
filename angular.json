@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/jurika",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -60,6 +61,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -128,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "jurika"
+  "defaultProject": "jurika",
+  "cli": {
+    "analytics": "bd1d5808-9784-44ff-b833-5c67959de22e"
+  }
 }

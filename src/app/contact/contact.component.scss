@@ -1,0 +1,26 @@
+@import 'abstracts/mixins';
+
+section {
+	padding-top: 86px;
+
+	.name {
+		font-size: 1.2rem;
+	}
+
+	.social {
+		a {
+			display: inline-block;
+			color: initial;
+			text-decoration: none;
+			padding: 0 1rem;
+
+			i {
+				font-size: 2rem;
+			}
+
+			&:hover {
+				@include gradient-font;
+			}
+		}
+	}
+}
