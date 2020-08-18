@@ -11,13 +11,14 @@
 /node_modules
 
 # profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+chrome-profiler-events*.json
+speed-measure-plugin*.json
 
 # IDEs and editors
 /.idea
 .project
 .classpath
+.vs
 .c9/
 *.launch
 .settings/
@@ -30,6 +31,7 @@ speed-measure-plugin.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+slnx.sqlite
 
 # misc
 /.sass-cache
@@ -44,3 +46,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# cache busting translation files in angular
+i18n-cache-busting.json
+
+# ignore visual studio files
+.vs/*
