@@ -17,6 +17,8 @@
 			.avatar-border {
 				height: 20vmax;
 				width: 20vmax;
+				max-width: 280px;
+				max-height: 280px;
 				border-radius: 50%;
 				background: $gradient;
 

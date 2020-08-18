@@ -12,15 +12,29 @@ body {
 	margin: 0;
 	font-family: Roboto, 'Helvetica Neue', sans-serif;
 
-	.mat-raised-button {
-		background: $gradient;
+	.mat-button-base {
 		text-transform: uppercase;
-		color: white;
 		line-height: 40px;
 		padding: 0 20px;
 		border-radius: 20px;
 		box-shadow: 0 10px 20px rgba(0, 40, 94, 0.3), 0 6px 6px rgba(32, 191, 85, 0.25) !important;
 		transition: all 0.5s ease;
+
+		&.mat-raised-button {
+			background: $gradient;
+			color: white;
+		}
+
+		&.mat-stroked-button {
+			line-height: 38px;
+
+			.mat-button-wrapper {
+				background: $gradient;
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
 
 		&:hover,
 		&:focus {
