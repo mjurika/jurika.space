@@ -133,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "jurika"
+  "defaultProject": "jurika",
+  "cli": {
+    "analytics": "bd1d5808-9784-44ff-b833-5c67959de22e"
+  }
 }
